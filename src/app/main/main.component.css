@@ -1,0 +1,30 @@
+div.topbar {
+  background-color: darkcyan;
+  height: 50px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+div.topbar > a {
+  color: white;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+div.topbar > a:hover {
+  background-color: cyan;
+  color: black;
+}
+
+div.topbar > a.active-link {
+  background-color: lightcyan;
+  color: black;
+  cursor: default;
+}
+
+div.page-wrapper {
+  padding: 10px;
+}
